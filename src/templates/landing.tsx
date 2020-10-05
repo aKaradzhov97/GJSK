@@ -6,8 +6,8 @@ import PostListing from "../components/PostListing/PostListing";
 import SEO from "../components/SEO/SEO";
 import config from "../../data/SiteConfig";
 
-export const Landing = () => {
-  const postEdges = this.props.data.allMarkdownRemark.edges;
+export const Landing = (props) => {
+  const postEdges = props.data.allMarkdownRemark.edges;
   return (
     <Layout>
       <div className="landing-container">
