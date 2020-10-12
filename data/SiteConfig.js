@@ -11,6 +11,7 @@ const config = {
   siteRssTitle: "Gatsby Advanced Starter RSS feed", // Title of the RSS feed
   siteFBAppID: "1825356251115265", // FB Application ID for using app insights
   googleAnalyticsID: "UA-179620963-1", // GA tracking ID.
+  googleSearchConsoleID: "OTzF2yATSz4-izTkZ_iUJRYjX7F7n9UOIgWAmhOn8hk",
   dateFromFormat: "YYYY-MM-DD", // Date format used in the frontmatter.
   dateFormat: "DD/MM/YYYY", // Date format for display.
   postsPerPage: 4, // Amount of posts displayed per listing page.

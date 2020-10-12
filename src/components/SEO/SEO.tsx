@@ -109,11 +109,16 @@ class SEO extends Component {
         }
       );
     }
+
     return (
       <Helmet>
         {/* General tags */}
         <meta name="description" content={description} />
         <meta name="image" content={image} />
+        <meta
+          name="google-site-verification"
+          content={config.googleSearchConsoleID}
+        />
 
         {/* Schema.org tags */}
         <script type="application/ld+json">
