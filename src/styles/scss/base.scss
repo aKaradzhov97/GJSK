@@ -1,0 +1,15 @@
+@import "variables";
+
+html,
+body {
+  font-size: $font-size;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+
+  li {
+    list-style: none;
+  }
+}

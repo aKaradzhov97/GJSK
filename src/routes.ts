@@ -5,7 +5,7 @@ module.exports = [
     component: path.resolve(`src/pages/index.tsx`),
   },
   {
-    path: "/about",
+    path: "/about/",
     component: path.resolve(`src/pages/about.tsx`),
   },
   {

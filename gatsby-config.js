@@ -34,13 +34,13 @@ module.exports = {
         defaultLanguage: `bg`,
       },
     },
-    {
-      resolve: `gatsby-plugin-routes`,
-      options: {
-        // this is the path to your routes configuration file
-        path: `${__dirname}/src/routes.ts`,
-      },
-    },
+    // {
+    //   resolve: `gatsby-plugin-routes`,
+    //   options: {
+    //     // this is the path to your routes configuration file
+    //     path: `${__dirname}/src/routes.ts`,
+    //   },
+    // },
     {
       resolve: "gatsby-source-filesystem",
       options: {
