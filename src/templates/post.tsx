@@ -11,7 +11,7 @@ import config from "../../data/SiteConfig";
 import "./b16-tomorrow-dark.css";
 import "./post.css";
 
-export const PostTemplate = (props) => {
+const PostTemplate = (props) => {
   const { data, pageContext } = props;
   const { slug } = pageContext;
   const postNode = data.markdownRemark;
@@ -41,6 +41,8 @@ export const PostTemplate = (props) => {
     </Layout>
   );
 };
+
+export default PostTemplate;
 
 export const pageQuery = graphql`
   query BlogPostBySlug($slug: String!) {
