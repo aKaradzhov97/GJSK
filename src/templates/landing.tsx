@@ -21,6 +21,8 @@ export const Landing = (props) => {
   );
 };
 
+export default Landing;
+
 export const pageQuery = graphql`
   query LandingQuery {
     allMarkdownRemark(sort: { fields: [fields___date], order: DESC }) {
